@@ -1,0 +1,16 @@
+impacts-of-computing/ (Root Directory)
+├── SYLLABUS.md
+├── docs/
+│   ├── DAY-1-LIVE-SESSION.md
+│   └── MAINTENANCE-NOTICE.md
+├── labs/
+│   ├── 02-nudge-simulation.html
+│   ├── 03-bias-simulation.html
+│   ├── 04-surveillance-simulation.html
+│   └── 05-alchemy-simulation.html
+└── modules/
+    ├── 01-introduction.md
+    ├── 02-engineered-compliance.md
+    ├── 03-algorithmic-bias.md
+    ├── 04-the-privacy-paradox.md
+    └── 05-the-ai-frontier.md
