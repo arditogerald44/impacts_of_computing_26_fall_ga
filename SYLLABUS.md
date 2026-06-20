@@ -1,6 +1,6 @@
 # ⚖️ PHL 3100 / MAC 5100 – Impacts of Computing 
 ## 🏛️ Manhattanville University | School of Arts and Sciences
-### Summer 2026 Master Course Repository File
+### Fall 2026 Master Course Repository File
 
 * **Course Credits:** 3.0 Credits
 * **Distribution:** Humanities (Undergraduate Only)
