@@ -87,4 +87,31 @@ Our custom lab simulations (`labs/02-nudge-simulation.html`, etc.) are ultra-lig
 ## 🔍 Step 3: Issue Boards and Peer Code Review
 
 - **Tracking Progress:** All course announcements, scheduling notices, and project specifications are managed asynchronously through the repository **Issue Board**.
+
 - **Peer Feedback:** When your weekly lab code or analytical report is pushed, you are expected to review at least one classmate's patch file. Submit your critiques using charitable, constructive dialogue directly inside the open issue thread matching their sovereign handle.
+
+  
+
+## 🔄 Keeping Your Course Files Up to Date (Syncing the Upstream)
+
+As the 14-week semester progresses, the instructor will push new modules, analytical reading materials, and interactive laboratory files to the main master repository. Because your workspace is a personal, isolated fork, these new files do not sync automatically. 
+
+You must pull these updates from the **Upstream** (the instructor's master repository) into your **Local Copy** (your machine), and then sync them to your **Origin** (your personal online fork account).
+
+<Image src="image_agent_tag_7160144637982568763" alt="Diagram showing Git workflow: Pulling changes from Upstream original repo to Local clone, and pushing from Local clone to Origin Remote Forked repo." caption="The Fork, Sync, and Pull Request Architecture" />
+
+Choose the operational track that matches your workspace setup below when a content update is announced:
+
+### Track A: GitHub Desktop / Forgejo Visual GUI
+1. Open **GitHub Desktop** and ensure your course repository is active.
+2. Click the **Fetch origin** button at the top header panel.
+3. If new materials are live, the app will display a notice stating your fork is behind the upstream master.
+4. Click the **Sync Fork** or **Update from upstream** button. The GUI will cleanly download the new files to your local hard drive and automatically push them to your online account.
+
+### Track B: The Command-Line Terminal
+If you are running a minimal computing terminal configuration, use the following protocol:
+
+**Step 1: Link the Upstream Source (One-time setup during Week 1)**
+Tell your local workstation where the instructor's master repository is located:
+```bash
+git remote add upstream [https://github.com/YourInstructorHandle/impacts-of-computing.git](https://github.com/YourInstructorHandle/impacts-of-computing.git)
