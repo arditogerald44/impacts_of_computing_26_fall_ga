@@ -115,3 +115,10 @@ If you are running a minimal computing terminal configuration, use the following
 Tell your local workstation where the instructor's master repository is located:
 ```bash
 git remote add upstream [https://github.com/YourInstructorHandle/impacts-of-computing.git](https://github.com/YourInstructorHandle/impacts-of-computing.git)
+
+
+```
+
+---
+## 📝 License
+This course curriculum and its interactive laboratories are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
